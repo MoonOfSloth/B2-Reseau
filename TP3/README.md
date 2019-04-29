@@ -141,10 +141,13 @@ SW1(config-if)#switchport mode trunk
 ```
 connection de Switch 1 à Switch2 depuis Switch2
 
+
+```
 SW2#conf t
 SW2(config-if)#interface Ethernet 0/1
 SW2(config-if)#switchport trunk encapsulation dot1q
 SW2(config-if)#switchport mode trunk
+```
 
 # II. Manipulation simple de routeur
 #### > Topologie
