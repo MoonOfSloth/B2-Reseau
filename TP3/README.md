@@ -130,7 +130,7 @@ SW2(config-if)#switchport mode access
 SW2(config-if)#switchport access vlan 10
 ```
 
-* Ajout des TRUNK : 
+* TRUNK : 
 
 connection de Switch 1 � Switch2 depuis Switch1
 
