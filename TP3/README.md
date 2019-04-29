@@ -53,6 +53,7 @@ nano /etc/sysconfig/network-scripts/ifcfg-enp0s8
     IPADDR=10.1.2.1
     NETMASK=255.255.255.0
 ```
+On restart -> If up Ifdown
 
 * Ping entre machines :
 
@@ -64,12 +65,10 @@ nano /etc/sysconfig/network-scripts/ifcfg-enp0s8
         64 bytes from 10.1.1.2: icmp_seq=3 ttl=64 time=2.46 ms
         --- 10.1.1.2 ping statistics ---
         3 packets transmitted, 3 received, 0% packet loss, time 2002ms
-        rtt min/avg/max/mdev = 1.231/2.486/4.892/1.702 ms
-        ```
+        rtt min/avg/max/mdev = 2.131/2.624/3.212/1.702 ms
+        ``` 
 
-If up I down 
-
-sudo hostname <NOM_VM>
+On change le nom ->sudo hostname <NOM_VM>
 
 ## 2. Configuration des VLANs
 
