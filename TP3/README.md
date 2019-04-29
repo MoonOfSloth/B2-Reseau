@@ -220,8 +220,6 @@ sudo ip route 10.2.2.0 255.255.255.0 10.2.12.1
 ```
 
 #### > Vérification
-	
-	*Client2->Server1 :
 
 ```
     ping 10.2.2.10
