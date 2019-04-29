@@ -66,7 +66,7 @@ On restart -> If up Ifdown
         --- 10.1.1.2 ping statistics ---
         3 packets transmitted, 3 received, 0% packet loss, time 2002ms
         rtt min/avg/max/mdev = 2.131/2.624/3.212/1.702 ms
-        ``` 
+   ``` 
 
 On change le nom ->sudo hostname <NOM_VM>
 
@@ -223,13 +223,13 @@ sudo ip route 10.2.2.0 255.255.255.0 10.2.12.1
 	
 	*Client2->Server1 :
 
-	```
+```
     ping 10.2.2.10
         
     PING 10.2.2.10 (10.2.2.10) 56(84) bytes of data.
     64 bytes from 10.2.2.10: icmp_seq=1 ttl=255 time=1.18 ms
     64 bytes from 10.2.2.10: icmp_seq=2 ttl=255 time=1.31 ms
-	```
+```
 
 ## III. Mise en place d'OSPF
 
