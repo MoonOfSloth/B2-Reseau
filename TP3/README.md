@@ -40,7 +40,7 @@ client1           SW1                  SW 2
 ```
 
 
-D�finition d'une ip static dans le r�seau host-only ```10.1.2.0/24```
+Définition d'une ip static dans le réseau host-only ```10.1.2.0/24```
 sur client 1 et 2
 
 ```
@@ -132,7 +132,7 @@ SW2(config-if)#switchport access vlan 10
 
 * TRUNK : 
 
-connection de Switch 1 � Switch2 depuis Switch1
+connection de Switch 1 à Switch2 depuis Switch1
 
 ```
 SW1#conf t
@@ -140,7 +140,7 @@ SW1(config-if)#interface Ethernet 0/2
 SW1(config-if)#switchport trunk encapsulation dot1q
 SW1(config-if)#switchport mode trunk
 ```
-connection de Switch 1 � Switch2 depuis Switch2
+connection de Switch 1 à Switch2 depuis Switch2
 
 SW2#conf t
 SW2(config-if)#interface Ethernet 0/1
@@ -172,7 +172,7 @@ client1          +------+               +------+
 
 ```
 
-#### > R�seau(x)
+#### > Réseau(x)
 
 Nom | Adresse
 --- | ---
@@ -217,7 +217,7 @@ Router2 :
 sudo ip route 10.2.2.0 255.255.255.0 10.2.12.1
 ```
 
-#### > V�rification
+#### > Vérification
 	
 	*Client2->Server1 :
 
@@ -260,7 +260,7 @@ Hosts | `10.3.100.0/30` | `10.3.100.4/30` | `10.3.100.8/30` | `10.3.100.12/30` |
 	# router-id 1.1.1.1
 	```
 
-    * Partage de tous les r�seaux sur lequelle le routeur est connect� :
+    * Partage de tous les réseaux sur lequelle le routeur est connecté :
         ```
            network 10.3.100.0 0.0.0.3 area 0
            network 10.3.102.0 0.0.0.255 area 2
